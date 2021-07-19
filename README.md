@@ -41,11 +41,15 @@ PYTHON LIBRARIES REQUIRED:
 
 NOTES ABOUT THE PROJECT:
 We are aware that the code written is not nice, we are not proffessional programmers and we had a lot of problems during the development of the project
+
 The generation of the PDF can take some time as it has some graphics and photos that need to be proccessed
+
 The monitoring function stops when generates an alert, the command has to be re-sent if tou want to continue with the comparation
+
 Some tables doesn't display properly if they don't have an integer index column
-MIBS available are in the folder "mibs", and they can be added to the project changing the parametrs of loadModules function in index.py, but we do not guarantee that they will
-	work, as we only tried some of them.
+
+MIBS available are in the folder "mibs", and they can be added to the project changing the parametrs of loadModules function in index.py, but we do not guarantee that they will work, as we only tried some of them.
+
 	
 Explanation of the files:
 
