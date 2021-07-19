@@ -56,7 +56,7 @@ Some tables doesn't display properly if they don't have an integer index column
 MIBS available are in the folder "mibs", and they can be added to the project changing the parametrs of loadModules function in index.py, but we do not guarantee that they will work, as we only tried some of them.
 
 	
-Explanation of the files:
+EXPLANATION OF THE .py FILES:
 
 index.py: Main file
 
@@ -66,6 +66,7 @@ CrearFoto.py: Auxiliar function that converts .txt files to photos to add them t
 
 traductor.py: Auxiliar function that converts OID names to values
 
+To run the project, change the value of the token in .config file to run it on your discord server. Then, run "index.py" to start the Discord Bot
 
 
 
