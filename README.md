@@ -1,10 +1,15 @@
 DISCOGESTION
 Discord API that allows the user to execute SNMP commands and manage network nodes with Discord interface
+
 Video of a demonstration of the project (in spanish): https://www.youtube.com/watch?v=nCViH_UeI2s
+
 Made by:
 enrsancar1		https://github.com/enrsancar1
+
 manueljerez7 	https://github.com/manueljerez7
+
 marreyhen		https://github.com/marreyhen
+
 As final project in the course "Gestion de Redes" (Network Management), Ingenieria de las Tecnologías de las Telecomunicaciones, University of Seville
 
 AVAILABLE COMMANDS:
