@@ -8,6 +8,7 @@ marreyhen		https://github.com/marreyhen
 As final project in the course "Gestion de Redes" (Network Management), Ingenieria de las Tecnologías de las Telecomunicaciones, University of Seville
 
 AVAILABLE COMMANDS:
+
 	$help: shows help
 	$add [NAME] [IP]: Adds a new device, with its IP and an ID. By default, it is created the device {'local':'localhost'}
 	$snmp get [OID] [DEVICE_NAME]: Execute a SNMP-GET command 
@@ -23,6 +24,7 @@ REQUIREMENTS:
 Have the SNMP Agent active on the managed device and set the "Community" as "public"
 
 PYTHON LIBRARIES REQUIRED:
+
 	pysnmp
 	config
 	os
@@ -46,9 +48,13 @@ MIBS available are in the folder "mibs", and they can be added to the project ch
 	work, as we only tried some of them.
 	
 Explanation of the files:
+
 index.py: Main file
+
 acciones.py, trap.py, informe.py: Functions of the different commands available
+
 CrearFoto.py: Auxiliar function that converts .txt files to photos to add them to the PDF
+
 traductor.py: Auxiliar function that converts OID names to values
 
 
